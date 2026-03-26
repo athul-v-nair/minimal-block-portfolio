@@ -1,0 +1,190 @@
+{
+  "hero": {
+    "name": "Athul V Nair",
+    "role": "AI Engineer",
+    "location": "Based In India.",
+    "description": "I'm an AI Engineer with a strong foundation in machine learning and deep learning systems, transitioning from a professional software engineering background. Passionate about building AI-powered applications using Generative AI frameworks and large language models. Actively developing hands-on projects that explore real-world use cases of GenAI systems.",
+    "image": "/assets/images/hero.png",
+    "socials": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/athul-v-nair",
+        "icon": "/assets/socials/github-142-svgrepo-com.svg"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/athul-v-nair-dev",
+        "icon": "/assets/socials/linkedin-svgrepo-com.svg"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/athulvn",
+        "icon": "/assets/socials/twitter-154-svgrepo-com.svg"
+      },
+      {
+        "platform": "Medium",
+        "url": "https://medium.com/@athulvinod.dev",
+        "icon": "/assets/socials/medium-svgrepo-com.svg"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "icon": "/assets/skills/python-127-svgrepo-com.svg"
+    },
+    {
+      "name": "Pytorch",
+      "icon": "/assets/skills/pytorch-svgrepo-com.svg"
+    },
+    {
+      "name": "Langchain",
+      "icon": "/assets/skills/Langchain--Streamline-Simple-Icons.svg"
+    },
+    {
+      "name": "AWS",
+      "icon": "/assets/skills/aws-svgrepo-com.svg"
+    },
+    {
+      "name": "FastAPI",
+      "icon": "/assets/skills/fastapi-svgrepo-com.svg"
+    },
+    {
+      "name": "React",
+      "icon": "/assets/skills/react-svgrepo-com.svg"
+    },
+    {
+      "name": "Laravel",
+      "icon": "/assets/skills/laravel-svgrepo-com.svg"
+    },
+    {
+      "name": "Adobe Experience Cloud",
+      "icon": "/assets/skills/adobe-svgrepo-com.svg"
+    },
+    {
+      "name": "Git",
+      "icon": "/assets/skills/git-svgrepo-com.svg"
+    },
+    {
+      "name": "Docker",
+      "icon": "/assets/skills/Docker--Streamline-Unicons.svg"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Experion Technologies",
+      "role": "Software Engineer",
+      "duration": "Apr 2025 - Present",
+      "description": "Delivered web analytics solutions using Adobe Experience Platform for a US-based automobile client, supporting campaigns with 2M+ monthly users. Built large-scale event tracking systems, integrated third-party analytics tools, and developed dashboards to drive product and marketing decisions. Collaborated with stakeholders to deliver scalable solutions and contributed to winning additional projects.",
+      "logo": "Globe"
+    },
+    {
+      "company": "Experion Technologies",
+      "role": "Associate Software Engineer",
+      "duration": "May 2024 - Apr 2025",
+      "description": "Worked on international projects delivering production-ready web applications, integrated CRM systems to enhance customer workflows, and improved system performance through optimization and bug fixes. Led migration of legacy stacks to modern frameworks, improving stability and maintainability.",
+      "logo": "Globe"
+    },
+    {
+      "company": "Experion Technologies",
+      "role": "Trainee Software Engineer",
+      "duration": "Oct 2023 - May 2024",
+      "description": "Trained in full-stack development and built production-ready applications, including a contract management system for tracking enterprise contracts and revenue. Developed REST APIs with validation and error handling, and collaborated within a team to deliver a well-received platform.",
+      "logo": "Globe"
+    }
+  ],
+  "about": {
+    "image": "/assets/images/about_me_img.png",
+    "content": [
+      "I'm an AI Engineer based in India with a strong focus on building intelligent applications using LLMs and modern backend systems.",
+      "I specialize in Retrieval-Augmented Generation (RAG), designing pipelines that handle data ingestion, semantic search, and response generation efficiently.",
+      "Beyond AI, I have experience in backend and frontend development, allowing me to build complete, production-ready applications.",
+      "I enjoy experimenting with new AI architectures, optimizing systems for performance, and continuously learning cutting-edge technologies."
+    ]
+  },
+  "projects": [
+    {
+      "number": "01",
+      "title": "Portfolio RAG Chatbot",
+      "description": "Built a personal AI chatbot powered by a RAG pipeline to answer questions about my experience and projects. Implemented document parsing, semantic chunking, embedding generation, and retrieval with evaluation metrics like recall@k and MRR.",
+      "image": "https://via.placeholder.com/800x600/121212/ffffff?text=RAG+Chatbot",
+      "link": "https://example.com/project-1",
+      "github": "https://github.com/athul-v-nair/portfolio-rag-chatbot",
+      "technologies": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "LLMs",
+        "RAG",
+        "Vector DB"
+      ]
+    },
+    {
+      "number": "02",
+      "title": "Immersify– AI Powered Immersive Reading Experience",
+      "description": "Developed an AI-powered accessibility app that creates immersive read-aloud experiences by detecting sound-related words in real time and triggering matching audio effects, such as rain sounds. Built using AWS Bedrock, AWS Transcribe, and S3, the system also leveraged OpenSearch to improve semantic retrieval, while performance and cost trade-offs were evaluated. The project received positive feedback during a hackathon.",
+      "image": "https://via.placeholder.com/800x600/121212/ffffff?text=Ecommerce+Website",
+      "technologies": [
+        "Python",
+        "AWS Bedrock",
+        "AWS S3",
+        "AWS Transcribe",
+        "React"
+      ]
+    },
+    {
+      "number": "03",
+      "title": "Text Generation Transformer (From Scratch + MLOps)",
+      "description": "Built a decoder-only Transformer from scratch in PyTorch for autoregressive text generation using the WikiText-2 dataset, implementing core components like multi-head causal self-attention, positional embeddings, masking, and feed-forward layers. Designed a modular architecture with stacked transformer blocks and residual connections, and developed a training pipeline with checkpointing, logging, and perplexity evaluation. Added multiple decoding strategies such as greedy, temperature, top-k, and top-p sampling, and deployed the model via a FastAPI service using Docker for reproducibility.",
+      "image": "https://via.placeholder.com/800x600/121212/ffffff?text=Blog+Website",
+      "github": "https://github.com/athul-v-nair/text-generation-mlops",
+      "technologies": [
+        "PyTorch",
+        "Hugging-Face",
+        "FastAPI",
+        "Docker"
+      ]
+    },
+    {
+      "number": "04",
+      "title": "Contrack- Contract Management and Tracking System",
+      "description": "Built a full-stack SaaS platform to manage enterprise contracts and track revenue projections, implementing CRUD operations, role-based access control, and SSO authentication. Designed analytics dashboards for revenue tracking and business insights, using React.js, Laravel, PHP, MySQL, and REST APIs.",
+      "image": "https://via.placeholder.com/800x600/121212/ffffff?text=Blog+Website",
+      "link": "https://pranavsr04.github.io/ConTrack---RJS-Experion/",
+      "github": "https://github.com/PranavSR04/ConTrack---RJS-Experion",
+      "technologies": [
+        "React.js",
+        "Laravel",
+        "MySQL",
+        "REST API's",
+        "Postman",
+        "Git"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Evren Shah",
+      "role": "Designer",
+      "quote": "I'm Evren Shah. I'm a frontend developer based in India. I love to build things for web.",
+      "avatar": "https://via.placeholder.com/100x100/121212/ffffff?text=E"
+    },
+    {
+      "name": "Flora Shire",
+      "role": "Designer",
+      "quote": "I'm Flora Shire. I'm a frontend developer based in India. I love to build things for web.",
+      "avatar": "https://via.placeholder.com/100x100/121212/ffffff?text=F"
+    },
+    {
+      "name": "Jason Doe",
+      "role": "Designer",
+      "quote": "I'm Jason Doe. I'm a frontend developer based in India. I love to build things for web.",
+      "avatar": "https://via.placeholder.com/100x100/121212/ffffff?text=J"
+    }
+  ],
+  "contact": {
+    "email": "athulvnair2001@gmail.com",
+    "phone": "+91 81569 41130",
+    "description": "If you are looking for a reliable frontend developer, simply drop me an email or call me."
+  }
+}
