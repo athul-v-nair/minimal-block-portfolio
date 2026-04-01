@@ -44,7 +44,7 @@ export function Skills({ data }: { data: SkillCategory[] }) {
                         <Icon
                           name={skill.icon}
                           size={18}
-                          className="grayscale group-hover:grayscale-0 transition-all"
+                          className="grayscale group-hover:grayscale-100 group-hover:text-white transition-all"
                         />
                         <span className="text-sm font-bold text-gray-800 group-hover:text-black transition-colors">
                           {skill.name}
