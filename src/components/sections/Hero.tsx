@@ -26,7 +26,7 @@ export function Hero({ data }: { data: HeroData }) {
                 <span className="font-extrabold">
                   {data.role}
                   <br />
-                  <span className="text-transparent" style={{ WebkitTextStroke: "2px black" }}>
+                  <span className="font-extralight">
                     {data.location}
                   </span>
                 </span>
