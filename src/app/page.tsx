@@ -9,6 +9,7 @@ import { AboutMe } from "@/components/sections/AboutMe";
 import { Projects } from "@/components/sections/Projects";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { Contact } from "@/components/sections/Contact";
+import { Education } from "@/components/sections/Education";
 
 export default function Home() {
   const data: PortfolioData = portfolioData as PortfolioData;
@@ -21,9 +22,11 @@ export default function Home() {
       <Hero data={data.hero} />
       <Skills data={data.skills} />
       <Experience data={data.experience} />
+      <Education data={data.education} />
       <AboutMe data={data.about} />
       <Projects data={data.projects} />
-      <Testimonials data={data.testimonials} />
+      {/* Hiding testimonials for now. Need to gather some. */}
+      {/* <Testimonials data={data.testimonials} /> */}
       <Contact data={data.contact} socials={data.hero.socials} />
     </main>
   );

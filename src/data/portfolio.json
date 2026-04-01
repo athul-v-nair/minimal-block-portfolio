@@ -4,7 +4,7 @@
     "role": "AI Engineer",
     "location": "Based In India.",
     "description": "I'm an AI Engineer with a strong foundation in machine learning and deep learning systems, transitioning from a professional software engineering background. Passionate about building AI-powered applications using Generative AI frameworks and large language models. Actively developing hands-on projects that explore real-world use cases of GenAI systems.",
-    "image": "/assets/images/hero.png",
+    "image": "/assets/images/hero_img.jpg",
     "socials": [
       {
         "platform": "GitHub",
@@ -18,7 +18,7 @@
       },
       {
         "platform": "Twitter",
-        "url": "https://twitter.com/athulvn",
+        "url": "https://twitter.com/athul_vn",
         "icon": "/assets/socials/twitter-154-svgrepo-com.svg"
       },
       {
@@ -30,44 +30,108 @@
   },
   "skills": [
     {
-      "name": "Python",
-      "icon": "/assets/skills/python-127-svgrepo-com.svg"
+      "category": "LANGUAGES",
+      "items": [
+        {
+          "name": "Python",
+          "icon": "/assets/skills/python-127-svgrepo-com.svg"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "/assets/skills/typescript-svgrepo-com.svg"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "/assets/skills/js01-svgrepo-com.svg"
+        },
+        {
+          "name": "PHP",
+          "icon": "/assets/skills/php01-svgrepo-com.svg"
+        }
+      ]
     },
     {
-      "name": "Pytorch",
-      "icon": "/assets/skills/pytorch-svgrepo-com.svg"
+      "category": "AI & DATA SCIENCE",
+      "items": [
+        {
+          "name": "LangChain",
+          "icon": "/assets/skills/Langchain--Streamline-Simple-Icons.svg"
+        },
+        {
+          "name": "PyTorch",
+          "icon": "/assets/skills/pytorch-svgrepo-com.svg"
+        },
+        {
+          "name": "Hugging Face",
+          "icon": "/assets/skills/git-svgrepo-com.svg"
+        },
+        {
+          "name": "Gemini/OpenAI",
+          "icon": "/assets/skills/Langchain--Streamline-Simple-Icons.svg"
+        },
+        {
+          "name": "Vector Database(chromadb)",
+          "icon": "/assets/skills/vector-database-svgrepo-com.svg"
+        },
+        {
+          "name": "Database(MySQL)",
+          "icon": "/assets/skills/database-svgrepo-com.svg"
+        },
+        {
+          "name": "Scikit-learn",
+          "icon": "/assets/skills/scikitlearn-svgrepo-com.svg"
+        },
+        {
+          "name": "Pandas",
+          "icon": "/assets/skills/pandas-svgrepo-com.svg"
+        },
+        {
+          "name": "Numpy",
+          "icon": "/assets/skills/numpy-svgrepo-com.svg"
+        }
+      ]
     },
     {
-      "name": "Langchain",
-      "icon": "/assets/skills/Langchain--Streamline-Simple-Icons.svg"
+      "category": "FRAMEWORKS & LIBRARIES",
+      "items": [
+        {
+          "name": "FastAPI",
+          "icon": "/assets/skills/fastapi-svgrepo-com.svg"
+        },
+        {
+          "name": "Next.js / React",
+          "icon": "/assets/skills/react-svgrepo-com.svg"
+        },
+        {
+          "name": "Laravel",
+          "icon": "/assets/skills/laravel-svgrepo-com.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "/assets/skills/tailwind-css-svgrepo-com.svg"
+        }
+      ]
     },
     {
-      "name": "AWS",
-      "icon": "/assets/skills/aws-svgrepo-com.svg"
-    },
-    {
-      "name": "FastAPI",
-      "icon": "/assets/skills/fastapi-svgrepo-com.svg"
-    },
-    {
-      "name": "React",
-      "icon": "/assets/skills/react-svgrepo-com.svg"
-    },
-    {
-      "name": "Laravel",
-      "icon": "/assets/skills/laravel-svgrepo-com.svg"
-    },
-    {
-      "name": "Adobe Experience Cloud",
-      "icon": "/assets/skills/adobe-svgrepo-com.svg"
-    },
-    {
-      "name": "Git",
-      "icon": "/assets/skills/git-svgrepo-com.svg"
-    },
-    {
-      "name": "Docker",
-      "icon": "/assets/skills/Docker--Streamline-Unicons.svg"
+      "category": "CLOUD & INFRASTRUCTURE",
+      "items": [
+        {
+          "name": "Adobe Experience Cloud",
+          "icon": "/assets/skills/adobe-svgrepo-com.svg"
+        },
+        {
+          "name": "AWS (Bedrock, S3, Transcribe)",
+          "icon": "/assets/skills/aws-svgrepo-com.svg"
+        },
+        {
+          "name": "Docker",
+          "icon": "/assets/skills/Docker--Streamline-Unicons.svg"
+        },
+        {
+          "name": "Git / CI/CD",
+          "icon": "/assets/skills/git-svgrepo-com.svg"
+        }
+      ]
     }
   ],
   "experience": [
@@ -75,31 +139,51 @@
       "company": "Experion Technologies",
       "role": "Software Engineer",
       "duration": "Apr 2025 - Present",
-      "description": "Delivered web analytics solutions using Adobe Experience Platform for a US-based automobile client, supporting campaigns with 2M+ monthly users. Built large-scale event tracking systems, integrated third-party analytics tools, and developed dashboards to drive product and marketing decisions. Collaborated with stakeholders to deliver scalable solutions and contributed to winning additional projects.",
-      "logo": "Globe"
+      "description": "- Delivered web analytics solutions using Adobe Experience Platform for a US-based automobile client, supporting campaigns with 2M+ monthly users.\n- Built large-scale event tracking systems, integrated third-party analytics tools, and developed dashboards to drive product and marketing decisions.\n- Collaborated with stakeholders to deliver scalable solutions and contributed to winning additional projects.",
+      "logo": "Experion"
     },
     {
       "company": "Experion Technologies",
       "role": "Associate Software Engineer",
       "duration": "May 2024 - Apr 2025",
-      "description": "Worked on international projects delivering production-ready web applications, integrated CRM systems to enhance customer workflows, and improved system performance through optimization and bug fixes. Led migration of legacy stacks to modern frameworks, improving stability and maintainability.",
-      "logo": "Globe"
+      "description": "- Worked on international projects delivering production-ready web applications.\n- Integrated CRM systems to enhance customer workflows, and improved system performance through optimization and bug fixes.\n- Led migration of legacy stacks to modern frameworks, improving stability and maintainability.",
+      "logo": "Experion"
     },
     {
       "company": "Experion Technologies",
       "role": "Trainee Software Engineer",
       "duration": "Oct 2023 - May 2024",
-      "description": "Trained in full-stack development and built production-ready applications, including a contract management system for tracking enterprise contracts and revenue. Developed REST APIs with validation and error handling, and collaborated within a team to deliver a well-received platform.",
-      "logo": "Globe"
+      "description": "- Trained in full-stack development and built production-ready applications.\n- Developed a contract management system for tracking enterprise contracts and revenue.\n- Developed REST APIs with validation and error handling, and collaborated within a team to deliver a well-received platform.",
+      "logo": "Experion"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "school": "APJ Abdul Kalam Technological University",
+      "duration": "2019 — 2023",
+      "logo": "University"
+    },
+    {
+      "degree": "Class 12 - CBSE",
+      "school": "Jyothi Nivas Public School",
+      "duration": "2017 — 2019",
+      "logo": "School"
+    },
+    {
+      "degree": "Class 10 - CBSE",
+      "school": "Jyothi Nivas Public School",
+      "duration": "2016 — 2017",
+      "logo": "School"
     }
   ],
   "about": {
     "image": "/assets/images/about_me_img.png",
     "content": [
       "I'm an AI Engineer based in India with a strong focus on building intelligent applications using LLMs and modern backend systems.",
-      "I specialize in Retrieval-Augmented Generation (RAG), designing pipelines that handle data ingestion, semantic search, and response generation efficiently.",
-      "Beyond AI, I have experience in backend and frontend development, allowing me to build complete, production-ready applications.",
-      "I enjoy experimenting with new AI architectures, optimizing systems for performance, and continuously learning cutting-edge technologies."
+      "Beyond AI Engineering, I have experience in backend and frontend development, allowing me to build complete, production-ready applications.",
+      "I enjoy experimenting with new AI architectures, optimizing systems for performance, and continuously learning cutting-edge technologies.",
+      "Outside of tech, I thrive on travel, hikes, workouts, gaming sessions, cinema and capturing life through photographs and videos."
     ]
   },
   "projects": [

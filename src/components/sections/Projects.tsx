@@ -51,7 +51,7 @@ export function Projects({ data }: { data: Project[] }) {
                 {/* Text Content */}
                 <div className="w-full lg:w-1/2 space-y-6">
                   <ScrollReveal delay={0.2} direction={isEven ? "right" : "left"}>
-                    <div className="text-6xl md:text-8xl font-black text-white/5 tracking-tighter mb-4">
+                    <div className="text-6xl md:text-8xl font-black text-white/20 tracking-tighter mb-4">
                       {project.number}
                     </div>
                     <h3

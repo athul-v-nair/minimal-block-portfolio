@@ -18,12 +18,24 @@ export interface Skill {
   icon: string;
 }
 
+export interface SkillCategory {
+  category: string;
+  items: Skill[];
+}
+
 export interface Experience {
   company: string;
   role: string;
   duration: string;
   description: string;
   logo: string;
+}
+
+export interface Education {
+  degree: string;
+  school: string;
+  duration: string;
+  logo?: string;
 }
 
 export interface AboutData {
@@ -56,8 +68,9 @@ export interface ContactData {
 
 export interface PortfolioData {
   hero: HeroData;
-  skills: Skill[];
+  skills: SkillCategory[];
   experience: Experience[];
+  education: Education[];
   about: AboutData;
   projects: Project[];
   testimonials: Testimonial[];
