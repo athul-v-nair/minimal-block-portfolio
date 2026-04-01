@@ -3,6 +3,7 @@ import { Inter, Caveat, Sora } from "next/font/google";
 import "./globals.css";
 import { CustomCursor } from "@/components/ui/CustomCursor";
 import { CursorProvider } from "@/contexts/CursorProvider";
+import { Chatbot } from "@/components/ui/Chatbot";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const caveat = Caveat({ subsets: ["latin"], variable: "--font-caveat" });
@@ -24,8 +25,10 @@ export default function RootLayout({
         <CursorProvider>
           <CustomCursor />
           {children}
+          <Chatbot />
         </CursorProvider>
       </body>
+
     </html>
   );
 }
