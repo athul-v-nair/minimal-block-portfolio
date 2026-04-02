@@ -42,7 +42,7 @@ export function Projects({ data }: { data: Project[] }) {
                         src={project.image}
                         alt={project.title}
                         fill
-                        className="object-cover transition-transform duration-700 group-hover:scale-110"
+                        className="object-contain transition-transform duration-700 group-hover:scale-110"
                       />
                     </div>
                   </ScrollReveal>

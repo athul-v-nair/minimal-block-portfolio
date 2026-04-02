@@ -191,7 +191,7 @@
       "number": "01",
       "title": "Portfolio RAG Chatbot",
       "description": "Built a personal AI chatbot powered by a RAG pipeline to answer questions about my experience and projects. Implemented document parsing, semantic chunking, embedding generation, and retrieval with evaluation metrics like recall@k and MRR.",
-      "image": "https://via.placeholder.com/800x600/121212/ffffff?text=RAG+Chatbot",
+      "image": "/assets/projects/chatbot.png",
       "link": "https://example.com/project-1",
       "github": "https://github.com/athul-v-nair/portfolio-rag-chatbot",
       "technologies": [
@@ -207,7 +207,7 @@
       "number": "02",
       "title": "Immersify– AI Powered Immersive Reading Experience",
       "description": "Developed an AI-powered accessibility app that creates immersive read-aloud experiences by detecting sound-related words in real time and triggering matching audio effects, such as rain sounds. Built using AWS Bedrock, AWS Transcribe, and S3, the system also leveraged OpenSearch to improve semantic retrieval, while performance and cost trade-offs were evaluated. The project received positive feedback during a hackathon.",
-      "image": "https://via.placeholder.com/800x600/121212/ffffff?text=Ecommerce+Website",
+      "image": "/assets/projects/immersify.png",
       "technologies": [
         "Python",
         "AWS Bedrock",
@@ -220,7 +220,7 @@
       "number": "03",
       "title": "Text Generation Transformer (From Scratch + MLOps)",
       "description": "Built a decoder-only Transformer from scratch in PyTorch for autoregressive text generation using the WikiText-2 dataset, implementing core components like multi-head causal self-attention, positional embeddings, masking, and feed-forward layers. Designed a modular architecture with stacked transformer blocks and residual connections, and developed a training pipeline with checkpointing, logging, and perplexity evaluation. Added multiple decoding strategies such as greedy, temperature, top-k, and top-p sampling, and deployed the model via a FastAPI service using Docker for reproducibility.",
-      "image": "https://via.placeholder.com/800x600/121212/ffffff?text=Blog+Website",
+      "image": "/assets/projects/transformer.png",
       "github": "https://github.com/athul-v-nair/text-generation-mlops",
       "technologies": [
         "PyTorch",
@@ -233,7 +233,7 @@
       "number": "04",
       "title": "Contrack- Contract Management and Tracking System",
       "description": "Built a full-stack SaaS platform to manage enterprise contracts and track revenue projections, implementing CRUD operations, role-based access control, and SSO authentication. Designed analytics dashboards for revenue tracking and business insights, using React.js, Laravel, PHP, MySQL, and REST APIs.",
-      "image": "https://via.placeholder.com/800x600/121212/ffffff?text=Blog+Website",
+      "image": "/assets/projects/contrack.png",
       "link": "https://pranavsr04.github.io/ConTrack---RJS-Experion/",
       "github": "https://github.com/PranavSR04/ConTrack---RJS-Experion",
       "technologies": [
