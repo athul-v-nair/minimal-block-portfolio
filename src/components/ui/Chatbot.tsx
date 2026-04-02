@@ -18,6 +18,8 @@ type Message = {
 };
 
 export function Chatbot() {
+  const API_URL = process.env.NEXT_PUBLIC_CHATBOT_API_URL || "http://localhost:8000";
+
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputValue, setInputValue] = useState("");
@@ -28,15 +30,43 @@ export function Chatbot() {
   const { changeColor } = useCursor();
 
   useEffect(() => {
-    // Generate a unique session ID on mount
-    setSessionId(Math.random().toString(36).substring(7));
-  }, []);
+    // 1. Manage Session ID
+    let currentSessionId = localStorage.getItem("chatbot_session_id");
+    if (!currentSessionId) {
+      currentSessionId = Math.random().toString(36).substring(7);
+      localStorage.setItem("chatbot_session_id", currentSessionId);
+    }
+    setSessionId(currentSessionId);
+
+    // 2. Hydrate Messages
+    const storedMessages = localStorage.getItem("chatbot_messages");
+    if (storedMessages) {
+      try {
+        setMessages(JSON.parse(storedMessages));
+      } catch (e) {
+        console.error("Failed to parse stored chatbot messages", e);
+      }
+    }
+
+    // 3. Wake up backend (15 min cooldown)
+    const lastPing = localStorage.getItem("chatbot_last_ping");
+    const pingCooldown = 15 * 60 * 1000;
+    const now = Date.now();
+
+    if (!lastPing || (now - parseInt(lastPing, 10) > pingCooldown)) {
+      fetch(`${API_URL}/health`).catch(() => { });
+      localStorage.setItem("chatbot_last_ping", now.toString());
+    }
+  }, [API_URL]);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   useEffect(() => {
+    if (messages.length > 0) {
+      localStorage.setItem("chatbot_messages", JSON.stringify(messages));
+    }
     if (isOpen) {
       scrollToBottom();
     }
@@ -53,8 +83,6 @@ export function Chatbot() {
       ]);
     }
   };
-
-  const API_URL = process.env.NEXT_PUBLIC_CHATBOT_API_URL || "http://localhost:8000";
 
   const stripSources = (text: string) => {
     const marker = "[SOURCES]";
