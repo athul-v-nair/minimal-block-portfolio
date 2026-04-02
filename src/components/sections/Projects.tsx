@@ -10,7 +10,7 @@ import { useCursor } from "@/contexts/CursorContext";
 export function Projects({ data }: { data: Project[] }) {
   const { changeSize } = useCursor();
   return (
-    <section id="projects" className="w-full py-24 bg-black text-white">
+    <section id="projects" className="w-full py-24 bg-black text-white overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <h2 className="text-3xl md:text-5xl font-extrabold mb-20 tracking-tight text-center">

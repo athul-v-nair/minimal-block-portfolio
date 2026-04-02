@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function Contact({ data, socials }: { data: ContactData; socials: Social[] }) {
   return (
-    <section id="contact" className="w-full py-12 bg-white text-black border-t border-gray-100">
+    <section id="contact" className="w-full py-12 bg-white text-black border-t border-gray-100 overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
 

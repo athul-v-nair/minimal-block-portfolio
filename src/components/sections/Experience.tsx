@@ -8,7 +8,7 @@ export function Experience({ data }: { data: ExperienceType[] }) {
   const { changeSize } = useCursor();
 
   return (
-    <section id="experience" className="w-full py-24 bg-black border-y border-white/5">
+    <section id="experience" className="w-full py-24 bg-black border-y border-white/5 overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
 

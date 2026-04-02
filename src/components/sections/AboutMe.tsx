@@ -8,7 +8,7 @@ import { useCursor } from "@/contexts/CursorContext";
 export function AboutMe({ data }: { data: AboutData }) {
   const { changeSize } = useCursor();
   return (
-    <section id="about" className="w-full py-24 bg-white">
+    <section id="about" className="w-full py-24 bg-white overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
 
