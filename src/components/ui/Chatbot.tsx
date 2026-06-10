@@ -6,6 +6,7 @@ import { MessageCircle, Minimize2, Send, Loader2, Bot, User, Copy, Check } from 
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { useCursor } from "@/contexts/CursorContext";
 
 function cn(...inputs: ClassValue[]) {
@@ -78,7 +79,7 @@ export function Chatbot() {
       setMessages([
         {
           role: "assistant",
-          content: "Hi there! I am Athul's AI assistant. I'm here to help answer any questions you have about his portfolio, experience, or skills. How can I help you today?",
+          content: "Hi there! I'm Athul's AI assistant. Feel free to ask me anything about Athul’s portfolio, experience, or skills. How can I help?\n\n(I might take a moment to respond to your first message, thanks for your patience!)",
         },
       ]);
     }
@@ -221,7 +222,19 @@ export function Chatbot() {
                       )}
                     >
                       <div className="prose prose-sm break-words prose-p:leading-relaxed prose-pre:bg-gray-100 prose-pre:text-black w-full overflow-x-auto">
-                        <ReactMarkdown>
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm]}
+                          components={{
+                            a: ({ node, ...props }) => (
+                              <a
+                                {...props}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-600 hover:text-blue-800 underline transition-colors"
+                              />
+                            ),
+                          }}
+                        >
                           {msg.role === "assistant" ? stripSources(msg.content) : msg.content}
                         </ReactMarkdown>
                       </div>
