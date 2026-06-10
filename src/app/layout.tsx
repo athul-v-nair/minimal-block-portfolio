@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Caveat, Sora } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 import { CustomCursor } from "@/components/ui/CustomCursor";
 import { CursorProvider } from "@/contexts/CursorProvider";
@@ -27,6 +28,10 @@ export default function RootLayout({
           {children}
           <Chatbot />
         </CursorProvider>
+
+        
+        {/* Integrating Vercel Analytics */}
+        <Analytics/>
       </body>
 
     </html>
