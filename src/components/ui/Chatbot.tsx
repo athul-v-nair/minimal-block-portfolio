@@ -79,7 +79,7 @@ export function Chatbot() {
       setMessages([
         {
           role: "assistant",
-          content: "Hi there! I'm Athul's AI assistant. Feel free to ask me anything about Athul’s portfolio, experience, or skills. How can I help?\n\n(I might take a moment to respond to your first message, thanks for your patience!)",
+          content: "Hi there! I'm Athul's AI assistant. Feel free to ask me anything about Athul’s portfolio, experience, or skills. How can I help?\n\n(I might take a moment to respond to your first message, thanks for your patience!) ",
         },
       ]);
     }
