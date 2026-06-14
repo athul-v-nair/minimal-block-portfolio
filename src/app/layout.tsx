@@ -12,7 +12,7 @@ const sora = Sora({ subsets: ["latin"], variable: "--font-sora" });
 
 export const metadata: Metadata = {
   title: "Athul V Nair - Portfolio",
-  description: "Portfolio of Athul V Nair, a Frontend Developer based in India.",
+  description: "Portfolio of Athul V Nair, a Software Engineer based in India.",
 };
 
 export default function RootLayout({
