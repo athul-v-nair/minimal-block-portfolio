@@ -275,25 +275,25 @@
     {
       "name": "Evren Shah",
       "role": "Designer",
-      "quote": "I'm Evren Shah. I'm a frontend developer based in India. I love to build things for web.",
+      "quote": "I'm Evren Shah. I'm a AI developer based in India. I love to build things for web.",
       "avatar": "https://via.placeholder.com/100x100/121212/ffffff?text=E"
     },
     {
       "name": "Flora Shire",
       "role": "Designer",
-      "quote": "I'm Flora Shire. I'm a frontend developer based in India. I love to build things for web.",
+      "quote": "I'm Flora Shire. I'm a Software Engineer based in India. I love to build things for web.",
       "avatar": "https://via.placeholder.com/100x100/121212/ffffff?text=F"
     },
     {
       "name": "Jason Doe",
       "role": "Designer",
-      "quote": "I'm Jason Doe. I'm a frontend developer based in India. I love to build things for web.",
+      "quote": "I'm Jason Doe. I'm a Web Analyst based in India. I love to build things for web.",
       "avatar": "https://via.placeholder.com/100x100/121212/ffffff?text=J"
     }
   ],
   "contact": {
     "email": "athulvnair2001@gmail.com",
     "phone": "+91 81569 41130",
-    "description": "If you are looking for a reliable frontend developer, simply drop me an email or call me."
+    "description": "If you are looking for a reliable AI developer, simply drop me an email or call me."
   }
 }
